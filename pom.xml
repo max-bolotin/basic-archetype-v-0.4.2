@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+            
+  
+  
+  
+  
+  <modelVersion>4.0.0</modelVersion>
+            
+  
+  
+  
+  
+  <groupId>appsfactory</groupId>
+            
+  
+  
+  
+  
+  <artifactId>basic-archetype-v-0.4.2</artifactId>
+            
+  
+  
+  
+  
+  <packaging>pom</packaging>
+            
+  
+  
+  
+  
+  <version>0.1.0SNAPSHOT</version>
+            
+  
+  
+  
+  
+  <name>Basic Archetype v0.4.2 Build</name>
+            
+  
+  
+  
+  
+  <description>Basic Archetype v0.4.2 Build</description>
+            
+  
+  
+  
+  
+  <organization>
+                        
+    
+    
+    
+    
+    <name>Appsfactory GmbH</name>
+                        
+    
+    
+    
+    
+    <url>https://appsfactory.de</url>
+                      
+  
+  
+  
+  
+  </organization>
+          
+  
+  
+  
+  
+  <modules>
+                      
+    
+    
+    
+    
+    <module>basic-archetype-v-0.4.2-dependencies</module>
+                      
+    
+    
+    
+    
+    <module>basic-archetype-v-0.4.2-parent</module>
+                  
+    
+    
+    
+    <module>basic-archetype-v-0.4.2-application</module>
+              
+    
+    
+    <module>basic-archetype-v-0.4.2-domain</module>
+          
+    
+    <module>basic-archetype-v-0.4.2-infrastructure</module>
+      
+  </modules>
+        
+
+
+
+</project>
