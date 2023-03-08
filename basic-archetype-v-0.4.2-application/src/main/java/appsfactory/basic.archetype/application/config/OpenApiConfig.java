@@ -3,6 +3,9 @@ package appsfactory.basic.archetype.application.config;
 import io.swagger.v3.oas.models.ExternalDocumentation;
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
+import java.util.Properties;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.info.BuildProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -29,7 +32,11 @@ public class OpenApiConfig {
             .description("API Documentation")
             .version(buildProperties.getVersion()))
         .externalDocs(new ExternalDocumentation()
-            .description(applicationName" API Documentation"));
+            .description(applicationName + " API Documentation"));
   }
 
+  @Bean
+  public BuildProperties buildProperties(Properties properties) {
+    return new BuildProperties(properties);
+  }
 }

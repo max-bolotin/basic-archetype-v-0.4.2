@@ -11,7 +11,7 @@ management:
     web:
       exposure:
 # make sure endpoints are either secured and/or not reachable from outside
-#       include: health, caches, env, info, loggers, metrics, mappings
+       include: health, caches, env, info, loggers, metrics, mappings
 
 spring:
   application:
